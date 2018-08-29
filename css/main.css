@@ -1,0 +1,324 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    position: fixed;
+    width: 100%;
+    background-image: linear-gradient(to right, white 30%, black 50%);
+    height: 85px;
+    z-index: 1;
+    display: inline-block;
+}
+
+
+
+.cname {
+    color: rgb(255, 60, 0);
+    position: absolute;
+    left: 110px;
+    top: 2px;
+    font-size: 30px;
+    text-shadow: 1px 2px 2px black;
+    color: rgb(255, 72, 0);
+    
+    padding: 23px;
+    
+    background-color: rgb(255, 251, 251);
+}
+
+.logo img {
+    width: 110px;
+    height: 80px;
+    position: absolute;
+    top: 2px;
+    left: 0px;
+    
+}
+
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    margin-left: 55%;
+}
+
+.navbar ul li {
+    float: left;
+    margin: 15px 0px 15px 0px;
+    background-color: rgba(221, 45, 45, 0);
+    transition: 0.5s;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    transition: 0.5s;
+
+    /* FIXXXX */
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: rgb(255, 72, 0);
+    
+    padding: 10px;
+    display: inline-block;
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: 2px;
+    transition: 0.5s;
+}
+
+.navbar ul li.active {
+    border-bottom: 2px solid rgb(245, 62, 7);
+}
+
+.navbar ul li:hover {
+    background-color: rgb(255, 255, 255);
+}
+
+.navbar ul li:hover a {
+    color: rgb(255, 72, 0);
+    font-size: 25px;
+}
+
+header::after {
+    /* clearfix */
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* slide show SLIDE SHOW ALKJFIASDFPHOADFIHADFIH;AIDFHAISHF;LIAHDFIA;SFIDHAISDHFIASHF */
+
+.mySlides {
+    display: none;
+}
+
+img {
+    height: 500px;
+}
+
+/* Slideshow container */
+
+.slideshow-container {
+    max-width: 100%;
+    position: relative;
+    margin: auto;
+    top: 85px;
+}
+
+/* Caption text */
+
+.text {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(255, 255, 255);
+    font-size: 50px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 45%;
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+    letter-spacing: 2px;
+    text-shadow: 1px 1px 1px black;
+}
+
+/* Number text (1/3 etc) */
+
+.numbertext {
+    color: #ffffff00;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+}
+
+/* The dots/bullets/indicators */
+
+.dot {
+    position: relative;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+.active {
+    background-color: #717171;
+}
+
+/* Fading animation */
+
+.fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+.slideshow-container::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.dot::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.sec1 {
+    color: black;
+    position: relative;
+    text-align: center;
+    background-color: #837d76;
+}
+
+.sec1 h1 {
+    margin-top: 40px;
+    line-height: 150px;
+}
+
+.sec1 span {
+    text-shadow: 1px 2px 2px black;
+    color: rgb(255, 72, 0);
+    border: 1px solid black;
+    padding: 10px;
+    box-shadow: 0 8px 16px 0 rgb(0, 0, 0);
+}
+
+.sec1 p {
+    margin-top: 10px;
+    justify-content: center;
+    font-size: 1.2em;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 30px;
+    line-height: 30px;
+}
+
+.secb {
+    z-index: 1;
+}
+
+.secb .column {
+    background-color: rgb(255, 255, 255);
+    height: 300px;
+    float: left;
+    width: 25%;
+    padding: 10px;
+    text-align: center;
+}
+
+.column img {
+    width: 100px;
+    height: 100px;
+    margin: 35px;
+
+}
+
+.secb p {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    line-height: 20px;
+    font-size: 1.1em;
+}
+
+footer {
+    z-index: -1;
+    height: 250px;
+    position: relative;
+    top: 20px;
+    text-align: center;
+    line-height: 25px;
+}
+
+footer p {
+    background-color: #b4a6a685;
+    top: 0; 
+    padding: 20px;
+}
+
+footer span {
+    background-color: #bebdb24d;
+    padding: 5px;
+}
+
+/* RESPONSIVE RESPONSIVE ASDFKASDFJKSDKSDALFJAS;KLJDFKALJSDFLKJASFKLJASKJFAS;KLJDFKJSDKFJASKLJDKJASDF */
+@media only screen and (max-width: 600px) {
+    .navbar ul li {
+        float: none;
+        width: 320px;
+        text-align: center;
+        display: block;
+        margin: 0;
+    }
+
+    .navbar ul {
+        margin-left: 0;
+    }
+
+    .navbar ul li.active {
+        border-bottom: none;
+        background-color: white;
+    }
+
+    .navbar ul li:hover a {
+        color: rgb(255, 72, 0);
+        font-size: 20px;
+    }
+
+    .sec1 h1 {
+        margin: 0;
+        padding: 0;
+        line-height: 70px;
+    }
+    .sec1 span {
+        display: block;
+    }
+
+    #company {
+        display: none;
+    }
+
+    .slideshow-container {
+        display: none;
+    }
+
+    header {
+        background-image: none;
+        position: static;
+        background-color: black;
+    }
+
+    .dottt {
+        display: none;
+    }
+
+    body {
+        background-color: black;
+    }
+
+    .secb {
+        display: none;
+    }
+
+    footer {
+        height: 10px;
+        margin-top: 0px;
+        top: 0;
+        line-height: 30px;
+    }
+
+    
+
+}

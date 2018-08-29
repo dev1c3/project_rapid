@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Rapid Infotech</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ"
+        crossorigin="anonymous">
+    
+</head>
+
+
+<body>
+    <!-- header -->
+    <header>
+        <div id="company">
+            <div class="logo">
+                <img src="img/Rapid.jpg" alt="logo">
+            </div>
+            <div class="cname">RAPID INFOTECH</div>
+        </div>
+        <!-- logo -->
+        <div class="navbar">
+            <!-- navigation bar -->
+            <ul id="nav">
+                <li class="active">
+                    <a href="index.html" target="_self">HOME</a>
+                </li>
+                <li>
+                    <a href="about.html" target="_self">ABOUT</a>
+                </li>
+                <li>
+                    <a href="product.html">PRODUCTS</a>
+                </li>
+
+                <li>
+                    <a href="contact.html">CONTACT</a>
+                </li>
+            </ul>
+        </div>
+    </header>
+
+
+    <!-- slide show -->
+    <div class="slideshow-container">
+
+        <div class="mySlides fade">
+            <div class="numbertext">1 / 6</div>
+            <img src="img/Accessories.jpg" style="width:100%">
+            <div class="text">Accessories</div>
+        </div>
+
+        <div class="mySlides fade">
+            <div class="numbertext">2 / 6</div>
+            <img src="img/banner-3-2.jpg" style="width:100%">
+            <div class="text">Networking Solutions</div>
+        </div>
+
+        <div class="mySlides fade">
+            <div class="numbertext">3 / 6</div>
+            <img src="img/laptop.png" style=" width:100%">
+            <div class="text">Laptops</div>
+        </div>
+        <div class="mySlides fade">
+            <div class="numbertext">4 / 6</div>
+            <img src="img/Surveillance.jpg" style=" width:100%">
+            <div class="text">Surveillance Solutions</div>
+        </div>
+        <div class="mySlides fade">
+            <div class="numbertext">5 / 6</div>
+            <img src="img/hardware.jpg" style=" width:100%">
+            <div class="text">Hardware Solutions</div>
+        </div>
+        <div class="mySlides fade">
+            <div class="numbertext">6 / 6</div>
+            <img src="img/banner-2.jpg" style=" width:100%">
+            <div class="text">Software Solutions</div>
+        </div>
+
+    </div>
+    <br>
+
+    <div class="dottt" style="text-align:center">
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+    </div>
+
+
+    <!-- section1 -->
+    <div class="sec1">
+        <h1>Welcome to
+            <span>Rapid Infotech</span> Pvt. Ltd.</h1>
+        <p>We are a bunch of young professionals with ethical values, devotion, and professionalism, joined hands together with
+            one focus in mind: help small and medium enterprises enhance productivity and profitability through the use of
+            IT resources, by aligning IT Support with business requirements to derive Maximum Value and reduce costs through
+            the selective use and implementation of computing resources.</p>
+    </div>
+
+    <!-- section2 -->
+    <div class="secb">
+        <div class="column a">
+            <img src="img/trust1.png" alt="img">
+            <br>
+            <p>We build a trust-based relationship and Treat other with respect.</p>
+        </div>
+        <div class="column b">
+            <img src="img/stability.png" alt="stability">
+            <br>
+            <p>We build a company that people want to work for long term and promote a balanced lifestyle.</p>
+        </div>
+        <div class="column c">
+            <img src="img/avail.png" alt="availability">
+            <br>
+            <p>We actively support personal and career growth for our employees to make positive contributions to our community
+                and environment.</p>
+        </div>
+        <div class="column d">
+            <img src="img/optimization.png" alt="optimization">
+            <br>
+            <p>We provide excellence in IT Services and Support to our Clients.</p>
+        </div>
+    </div>
+
+    <!-- section3 -->
+
+
+    <!-- footer -->
+    <footer class="branding">
+        <p>Copyright &copy; 2018 - Saurav Sharma
+            <br> Contact if you want a website
+            <span>Mobile:8650316595</span>
+            <span>Email:gg1saurav@gmail.com</span>
+        </p>
+    </footer>
+
+    <script>
+        var slideIndex = 0;
+        showSlides();
+
+        function showSlides() {
+            var i;
+            var slides = document.getElementsByClassName("mySlides");
+            var dots = document.getElementsByClassName("dot");
+            for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+            }
+            slideIndex++;
+            if (slideIndex > slides.length) {
+                slideIndex = 1
+            }
+            for (i = 0; i < dots.length; i++) {
+                dots[i].className = dots[i].className.replace(" active", "");
+            }
+            slides[slideIndex - 1].style.display = "block";
+            dots[slideIndex - 1].className += " active";
+            setTimeout(showSlides, 2500); // Change image every 2 seconds
+        }
+    </script>
+
+</body>
+
+</html>

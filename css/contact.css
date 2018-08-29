@@ -1,0 +1,94 @@
+
+.empty {
+    height: 85px;
+}
+
+body {
+    background-color: grey;
+}
+
+.contt {
+    background-color: rgb(194, 194, 216);
+    padding: 20px;
+    text-align: center;
+}
+
+span {
+    width: 250px;
+    display: inline-block;
+}
+
+.phone {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #1a1a18;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.phonea {
+    background-color: #1a1a18;
+    color: white;
+    padding: 40px;
+    padding-left: 300px;
+    font-size: 1.5rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.phonea span {
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+    color: black;
+}
+.phoneb {
+    background-color: #1a1a18;
+    color: white;
+    padding: 40px;
+    padding-left: 300px;
+    font-size: 1.5rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.phoneb span {
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+    color: black;
+}
+
+.id {
+    background-color: #1a1a18;
+    color: white;
+    padding: 40px;
+    font-size: 1.5rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-left: 300px;
+}
+
+.id span {
+    color: black;
+    background-color: white;
+    padding: 15px;
+}
+
+.address {
+    background-color: #1a1a18;
+    padding: 40px;
+    font-size: 1.1rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-left: 405px;
+    color: white;
+}
+
+.address span {
+    background-color: white;
+    padding: 20px;
+    margin-left: -108px;
+    color: black;
+    font-size: 1.5rem;
+}
+
+footer {
+    height: 90px;
+}
+
+
