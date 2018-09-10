@@ -17,8 +17,6 @@ header {
     display: inline-block;
 }
 
-
-
 .cname {
     color: rgb(255, 60, 0);
     position: absolute;
@@ -27,9 +25,7 @@ header {
     font-size: 30px;
     text-shadow: 1px 2px 2px black;
     color: rgb(255, 72, 0);
-    
     padding: 23px;
-    
     background-color: rgb(255, 251, 251);
 }
 
@@ -39,53 +35,46 @@ header {
     position: absolute;
     top: 2px;
     left: 0px;
-    
 }
 
 .navbar ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    margin-left: 55%;
+    margin-left: 53%;
 }
 
 .navbar ul li {
     float: left;
-    margin: 15px 0px 15px 0px;
+    margin: 15px 20px 15px 20px;
     background-color: rgba(221, 45, 45, 0);
     transition: 0.5s;
-    padding-left: 10px;
-    padding-right: 10px;
     padding-top: 5px;
-    padding-bottom: 5px;
     transition: 0.5s;
-
     /* FIXXXX */
 }
 
 .navbar ul li a {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-decoration: none;
     color: rgb(255, 72, 0);
-    
     padding: 10px;
     display: inline-block;
     font-size: 20px;
-    font-weight: 500;
+    font-weight: 600;
     letter-spacing: 2px;
     transition: 0.5s;
 }
 
 .navbar ul li.active {
-    border-bottom: 2px solid rgb(245, 62, 7);
+    border: 1px solid rgb(245, 62, 7);
 }
 
-.navbar ul li:hover {
-    background-color: rgb(255, 255, 255);
-}
+.navbar ul li:hover {}
 
 .navbar ul li:hover a {
     color: rgb(255, 72, 0);
-    font-size: 25px;
+    transform: translate(0, -8px);
 }
 
 header::after {
@@ -96,7 +85,6 @@ header::after {
 }
 
 /* slide show SLIDE SHOW ALKJFIASDFPHOADFIHADFIH;AIDFHAISHF;LIAHDFIA;SFIDHAISDHFIASHF */
-
 .mySlides {
     display: none;
 }
@@ -106,7 +94,6 @@ img {
 }
 
 /* Slideshow container */
-
 .slideshow-container {
     max-width: 100%;
     position: relative;
@@ -115,7 +102,6 @@ img {
 }
 
 /* Caption text */
-
 .text {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color: rgb(255, 255, 255);
@@ -131,7 +117,6 @@ img {
 }
 
 /* Number text (1/3 etc) */
-
 .numbertext {
     color: #ffffff00;
     font-size: 12px;
@@ -141,7 +126,6 @@ img {
 }
 
 /* The dots/bullets/indicators */
-
 .dot {
     position: relative;
     height: 15px;
@@ -158,7 +142,6 @@ img {
 }
 
 /* Fading animation */
-
 .fade {
     -webkit-animation-name: fade;
     -webkit-animation-duration: 1.5s;
@@ -224,7 +207,6 @@ img {
     width: 100px;
     height: 100px;
     margin: 35px;
-
 }
 
 .secb p {
@@ -244,7 +226,7 @@ footer {
 
 footer p {
     background-color: #b4a6a685;
-    top: 0; 
+    top: 0;
     padding: 20px;
 }
 
@@ -282,6 +264,7 @@ footer span {
         padding: 0;
         line-height: 70px;
     }
+
     .sec1 span {
         display: block;
     }
@@ -318,7 +301,4 @@ footer span {
         top: 0;
         line-height: 30px;
     }
-
-    
-
 }
